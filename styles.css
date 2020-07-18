@@ -564,8 +564,24 @@ footer {
   text-align: center;
   padding: 40px;
 }
+.form-control .text {
+  background-color: #111;
+  color: white;
+  height: 800px;
+}
 /* Begin Media Queries*/
 @media (max-width: 760px) {
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 390px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .text {
+    height: 200px;
+  }
   .harshlogo {
     width: 100px;
     height: 100px;
@@ -625,9 +641,9 @@ footer {
   }
   .heading {
     position: absolute;
-    top: 90%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -60%);
     color: white;
     text-align: center;
   }
