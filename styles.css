@@ -108,8 +108,9 @@ html {
   margin: -40px 0 30px 0px;
 }
 .about p {
-  font-size: 20px;
-  text-align: justify;
+  font-size: 22px;
+  text-align: left;
+  margin: 20px;
 }
 .harshpic {
   width: 300px;
@@ -117,7 +118,7 @@ html {
   border: red;
   border-width: 3px;
   border-style: solid;
-  margin: 20px 0 0 20px;
+
   text-align: center;
 }
 /* About section ends here */
@@ -133,8 +134,9 @@ html {
 .skillsimg {
   width: 120px;
   height: 120px;
-  margin: 10px;
+  margin: 10px 0 20px 0;
 }
+
 .progress {
   margin: 20px 0 20px 0;
 }
@@ -308,63 +310,34 @@ html {
 }
 /* education section ends here */
 /* carousel section */
-.project0 {
-  border-radius: 30px;
-  border: solid;
-  border-color: white;
-  width: 400px;
-  height: 520px;
-  background-color: grey;
-  margin-left: 30%;
-
-  padding: 30px;
-  text-align: center;
-}
-.project1 {
-  border-radius: 30px;
-  border: solid;
-  border-color: white;
-  width: 400px;
-  height: 520px;
-  background-color: #e84c47;
-  margin-left: 30%;
-
-  padding: 30px;
-  text-align: center;
-}
-.project2 {
-  border-radius: 30px;
-  border: solid;
-  border-color: white;
-  width: 400px;
-  height: 520px;
-  background-color: #9575cd;
-  margin-left: 30%;
-
-  padding: 30px;
-  text-align: center;
-}
-.project3 {
-  border-radius: 30px;
-  border: solid;
-  border-color: white;
-  width: 400px;
-  height: 520px;
-  background-color: #3ebae7;
-  margin-left: 30%;
-  padding: 30px;
-  text-align: center;
-}
+.project0,
+.project1,
+.project2,
+.project3,
 .project4 {
   border-radius: 30px;
   border: solid;
   border-color: white;
-  width: 400px;
+  max-width: 400px;
+  margin: 40px 0 40px 4.5rem;
   height: 520px;
-  background-color: #df4b24;
-  margin-left: 30%;
   padding: 30px;
   text-align: center;
+}
+.project0 {
+  background-color: grey;
+}
+.project1 {
+  background-color: #e84c47;
+}
+.project2 {
+  background-color: #9575cd;
+}
+.project3 {
+  background-color: #3ebae7;
+}
+.project4 {
+  background-color: #df4b24;
 }
 /* carousel ends here */
 /* contact section starts here */
@@ -375,7 +348,9 @@ html {
   padding-bottom: 100px;
   margin: 100px 0 0 0;
 }
-
+.contactform {
+  margin: 70px 0 50px 0;
+}
 .section-header {
   text-align: center;
   margin: 0 auto;
@@ -409,9 +384,7 @@ html {
   font-family: "Lato";
   font-weight: 400;
 }
-.formu {
-  margin-left: 70px;
-}
+
 .form-control,
 textarea {
   max-width: 400px;
@@ -445,6 +418,13 @@ textarea {
   transform: translate3d(0px, -29px, 0px);
 }
 /* contact section ends here */
+/* hobbies starts here */
+.clickimg {
+  width: 800px;
+  height: 600px;
+}
+
+/* hobbies ends here */
 /* Begin Right Contact Page */
 .direct-contact-container {
   float: right;
@@ -455,7 +435,7 @@ textarea {
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
+  margin: 30px;
   padding-right: 20px;
 }
 
@@ -465,8 +445,9 @@ textarea {
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
+  font-size: 15px;
   color: #bbb;
 }
 
@@ -569,14 +550,71 @@ footer {
   color: white;
   height: 800px;
 }
+#skills p {
+  font-size: 20px;
+  margin: 0px 0 10px 0;
+}
+#Hobbies p {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0 40px 0;
+  width: fit-content;
+}
+#contact p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: -40px;
+}
 /* Begin Media Queries*/
+@media (max-width: 900px) {
+  .heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    text-align: center;
+  }
+  .project0,
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    margin-left: 5.5rem;
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+    max-width: auto;
+    height: 550px;
+  }
+}
+@media (max-width: 1200px) {
+  .heading {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .project0,
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    margin-left: 1.9rem;
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+    max-width: auto;
+    height: 550px;
+  }
+}
 @media (max-width: 760px) {
-  .send-button {
-    margin-top: 15px;
-    height: 34px;
-    width: 390px;
-    overflow: hidden;
-    transition: all 0.2s ease-in-out;
+  .navbar {
+    background-color: #000000;
   }
 
   .text {
@@ -587,50 +625,23 @@ footer {
     height: 100px;
     margin-bottom: 20px;
   }
-  .project0 {
-    border-radius: 30px;
-    border: solid;
-    border-color: white;
-    width: 350px;
-    height: 530px;
-    margin-left: 5%;
-  }
-  .project1 {
-    border-radius: 30px;
-    border: solid;
-    border-color: white;
-    width: 350px;
-    height: 530px;
-    margin-left: 5%;
-  }
-  .project2 {
-    border-radius: 30px;
-    border: solid;
-    border-color: white;
-    width: 350px;
-    height: 530px;
-    margin-left: 5%;
-  }
-  .project3 {
-    border-radius: 30px;
-    border: solid;
-    border-color: white;
-    width: 350px;
-    height: 530px;
-    margin-left: 5%;
-  }
+  .project0,
+  .project1,
+  .project2,
+  .project3,
   .project4 {
+    margin-left: 0rem;
     border-radius: 30px;
     border: solid;
     border-color: white;
-    width: 350px;
-    height: 530px;
-    margin-left: 5%;
+    max-width: auto;
+    height: 550px;
   }
+
   .skillsimg {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 90px;
+    height: 90px;
+    margin: 10px 5px 20px 0;
   }
   .navbar .nav-item {
     margin-left: 25px;
@@ -668,7 +679,7 @@ footer {
     border: black;
     border-width: 2px;
     border-style: solid;
-    margin: 40px 0 20px 40px;
+    margin: 0 auto;
     text-align: center;
   }
 }
@@ -678,7 +689,10 @@ footer {
     max-width: 20%;
   }
   .section-header {
-    font-size: 65px;
+    font-size: 50px;
+  }
+  textarea {
+    margin-bottom: 40px;
   }
   .direct-contact-container,
   .form-horizontal {
@@ -698,6 +712,28 @@ footer {
     width: 60px;
     height: 60px;
     line-height: 60px;
+  }
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 340px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+
+    margin: 20px auto 20px auto;
+  }
+
+  .button {
+    width: 340px;
+    height: 34px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 300 14px "Lato", sans-serif;
+    letter-spacing: 2px;
   }
 }
 
@@ -721,6 +757,7 @@ footer {
   textarea {
     width: 280px;
   }
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
@@ -738,11 +775,5 @@ footer {
     width: 55px;
     height: 55px;
     line-height: 55px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .send-button {
-    width: 99%;
   }
 }
