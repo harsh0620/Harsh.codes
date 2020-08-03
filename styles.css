@@ -612,7 +612,8 @@ footer {
   .project1,
   .project2,
   .project3,
-  .project4 {
+  .project4,
+  .project5 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
@@ -638,7 +639,8 @@ footer {
   .project1,
   .project2,
   .project3,
-  .project4 {
+  .project4,
+  .project5 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
