@@ -314,7 +314,8 @@ html {
 .project1,
 .project2,
 .project3,
-.project4 {
+.project4,
+.project5 {
   border-radius: 30px;
   border: solid;
   border-color: white;
@@ -338,6 +339,9 @@ html {
 }
 .project4 {
   background-color: #df4b24;
+}
+.project5 {
+  background-color: black;
 }
 /* carousel ends here */
 /* contact section starts here */
