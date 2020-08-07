@@ -315,7 +315,8 @@ html {
 .project2,
 .project3,
 .project4,
-.project5 {
+.project5,
+.project6 {
   border-radius: 30px;
   border: solid;
   border-color: white;
@@ -588,7 +589,8 @@ footer {
   .project2,
   .project3,
   .project4,
-  .project5 {
+  .project5,
+  .project6 {
     margin-left: 5.5rem;
     border-radius: 30px;
     border: solid;
@@ -613,7 +615,8 @@ footer {
   .project2,
   .project3,
   .project4,
-  .project5 {
+  .project5,
+  .project6 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
@@ -640,7 +643,8 @@ footer {
   .project2,
   .project3,
   .project4,
-  .project5 {
+  .project5,
+  .project6 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
