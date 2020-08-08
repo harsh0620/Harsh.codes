@@ -122,7 +122,7 @@ html {
 }
 .about p {
   font-size: 22px;
-  text-align: left;
+  text-align: justify;
   margin: 20px;
 }
 .harshpic:hover {
