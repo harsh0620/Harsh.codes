@@ -125,13 +125,17 @@ html {
   text-align: left;
   margin: 20px;
 }
+.harshpic:hover {
+  border-style: solid;
+  border: white;
+  border-radius: 30px;
+}
 .harshpic {
   width: 300px;
   height: 400px;
   border: red;
   border-width: 3px;
   border-style: solid;
-
   text-align: center;
 }
 /* About section ends here */
