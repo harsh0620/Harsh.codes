@@ -62,6 +62,19 @@ html {
   padding: 2px;
   border-radius: 100px;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .rt {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .harshhover a {
   filter: drop-shadow(0 0 0.75rem red);
 }
@@ -316,7 +329,8 @@ html {
 .project3,
 .project4,
 .project5,
-.project6 {
+.project6,
+.project7 {
   border-radius: 30px;
   border: solid;
   border-color: white;
@@ -343,6 +357,9 @@ html {
 }
 .project5 {
   background-color: black;
+}
+.project7 {
+  background-color: #403ab4;
 }
 /* carousel ends here */
 /* contact section starts here */
@@ -590,7 +607,8 @@ footer {
   .project3,
   .project4,
   .project5,
-  .project6 {
+  .project6,
+  .project7 {
     margin-left: 5.5rem;
     border-radius: 30px;
     border: solid;
@@ -616,7 +634,8 @@ footer {
   .project3,
   .project4,
   .project5,
-  .project6 {
+  .project6,
+  .project7 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
@@ -644,7 +663,8 @@ footer {
   .project3,
   .project4,
   .project5,
-  .project6 {
+  .project6,
+  .project7 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
