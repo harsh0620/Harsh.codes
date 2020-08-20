@@ -336,7 +336,8 @@ html {
 .project6,
 .project7,
 .project8,
-.project9 {
+.project9,
+.project10 {
   border-radius: 30px;
   border: solid;
   border-color: white;
@@ -372,6 +373,9 @@ html {
 }
 .project9 {
   background-color: #c1a985;
+}
+.project10 {
+  background-color: black;
 }
 /* carousel ends here */
 /* contact section starts here */
@@ -622,7 +626,8 @@ footer {
   .project6,
   .project7,
   .project8,
-  .project9 {
+  .project9,
+  .project10 {
     margin-left: 5.5rem;
     border-radius: 30px;
     border: solid;
@@ -651,7 +656,8 @@ footer {
   .project6,
   .project7,
   .project8,
-  .project9 {
+  .project9,
+  .project10 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
@@ -682,7 +688,8 @@ footer {
   .project6,
   .project7,
   .project8,
-  .project9 {
+  .project9,
+  .project10 {
     margin-left: 0rem;
     border-radius: 30px;
     border: solid;
